@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>Hexo</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/24/正则表达式与'\'/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/24/正则表达式与'\'/" itemprop="url">正则表达式与'\'</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-24T22:51:02+08:00">
+                2017-11-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="正则表达式与-39-39"><a href="#正则表达式与-39-39" class="headerlink" title="正则表达式与&#39;\&#39;"></a>正则表达式与<code>&#39;\&#39;</code></h1><p>今天仔细看python Regular Expression HOWTO时留意到一个问题，关于反斜杠<code>&#39;\&#39;</code>  </p>
+<h3 id="举例："><a href="#举例：" class="headerlink" title="举例："></a>举例：</h3><p>如果要匹配字符串<code>&#39;\s&#39;</code>，这么写正则表达式会匹配：<br><code>re.match(&#39;\\\\s&#39;, &#39;\s&#39;)</code><br>或者 <code>re.match(r&#39;\\s&#39;, &#39;\s&#39;)</code>  </p>
+<p>正则表达式要这么写已经很常见了，那我们简单<strong>尝试一下把s换成n</strong>：<br><code>re.match(&#39;\\\\n&#39;, &#39;\n&#39;)</code><br>或者 <code>re.match(r&#39;\\n&#39;, &#39;\n&#39;)</code><br>结果如何呢？却是<strong>不匹配</strong>的，而真正匹配的正则写法应该是：<br><code>re.match(&#39;\\n&#39;, &#39;\n&#39;)</code><br>或者 <code>re.match(r&#39;\n&#39;, &#39;\n&#39;)</code> 甚至 <code>re.match(&#39;\n&#39;, &#39;\n&#39;)</code></p>
+<h3 id="如何解释这个现象呢？"><a href="#如何解释这个现象呢？" class="headerlink" title="如何解释这个现象呢？"></a>如何解释这个现象呢？</h3><p>1.首先我们要了解re的工作方式，当我们书写正则表达式用于re匹配时，IDE会对我们书写的字符串进行第一次解释分析，如<code>&#39;\\\\s&#39;</code>会被解释成<code>&#39;\\s&#39;</code>传递给<code>re.compile()</code>,<br>在<code>re.compile()</code>创建模式对象的时候，会对<code>&#39;\\s&#39;</code>进行第二次解释分析，被解释成<code>&#39;\&#39;+&#39;s&#39;</code>，这与目标字符串相一致。<br>2.那为什么换成n就不行了呢？因为<strong>在目标字符串</strong>的书写中：<strong><code>&#39;\s&#39;</code></strong>在IDE眼里是<code>&#39;\&#39;</code>和<code>&#39;s&#39;</code><strong>两个字符</strong>，而<strong><code>&#39;\n&#39;</code></strong>在IDE眼里相当于‘回车’为<strong>一个字符</strong>，<br>这样就比较好理解了。<br>3.我们知道re.match()中间会有两次转义分析，所以要匹配<code>&#39;\&#39;+&#39;s&#39;</code>就要将<code>&#39;\&#39;</code>转义两次成<code>&#39;\\\\&#39;</code>，如果我们少写了一层，就会导致<code>re.compile()</code>接收到<code>&#39;\s&#39;</code>就会被解释成匹配单个字符‘空格’，显然结果失败；<br>而要匹配<code>&#39;\n&#39;</code>只要保证正则表达式被解释两次后还意味着是‘回车’就会匹配成功，所以我们用<code>&#39;\\n&#39;</code>,<code>r&#39;\n&#39;</code>,<code>&#39;\n&#39;</code>都会匹配成功<code>&#39;\n&#39;</code>了;)</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>如果要彻底掌握正则表达式的写法，我的建议是首先要搞明白目标字符串会被怎么解释，是单字符还是双字符，然后按两级反推，或者前面加r一级反推，就不会出错了。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/14/Django, Flask非对称多对多数据库关系 /">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/14/Django, Flask非对称多对多数据库关系 /" itemprop="url">Django, Flask非对称多对多数据库关系</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-14T09:06:33+08:00">
+                2017-10-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="django-flask非对称多对多数据库关系"><a href="#django-flask非对称多对多数据库关系" class="headerlink" title="django, flask非对称多对多数据库关系"></a>django, flask非对称多对多数据库关系</h1><p>非对称数据库关系，多见于模型自引用建立的类似关注者、被关注者的多对多关系，两个博客项目写下来，把写法记录下来供以后参考。 </p>
+<h3 id="django写法"><a href="#django写法" class="headerlink" title="django写法"></a>django写法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">from django.db import models</span><br><span class="line">from django.contrib.auth.models import User</span><br><span class="line"></span><br><span class="line">class Contact(models.Model):</span><br><span class="line">    follower = models.ForeignKey(User, related_name=&apos;followed_set&apos;)   #followed</span><br><span class="line">    followed = models.ForeignKey(User, related_name=&apos;followers_set&apos;)  #followers</span><br><span class="line">    created = models.DateTimeField(auto_now_add=True, db_index=True)</span><br><span class="line"></span><br><span class="line">    class Meta: </span><br><span class="line">        ordering = (&apos;-created&apos;,)</span><br><span class="line"></span><br><span class="line">    def __str__(self): </span><br><span class="line">        return &apos;&#123;&#125; follows &#123;&#125;&apos;.format(self.follower, self.followed) </span><br><span class="line"></span><br><span class="line">User.add_to_class(&apos;followed&apos;, models.ManyToManyField(&apos;self&apos;, </span><br><span class="line">                                                     through=Contact, </span><br><span class="line">                                                     related_name=&apos;followers&apos;, </span><br><span class="line">                                                     symmetrical=False))</span><br></pre></td></tr></table></figure>
+<p>在这里使用django内置的User模型，使用add_to_class方法添加多对多字段，Contact为中间表。<br>Contact在这里相当于对User建立了两个多对一关系：  </p>
+<ul>
+<li>第一个字段follower关注者，对应User中的字段followed被关注者，user1.followed意为用户1关注的人，Contact里的follower指的是user1。  </li>
+<li>第二个字段followed被关注者，对应User中的字段followers关注者，user1.followers意为关注用户1的人，Contact里的followed指的是user1。  </li>
+</ul>
+<p><strong>创建关注关系</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">user1 = User.objects.get(id=1) </span><br><span class="line">user2 = User.objects.get(id=2) </span><br><span class="line">Contact.objects.get_or_create(follower=user1, followed=user2)</span><br></pre></td></tr></table></figure></p>
+<h3 id="flask写法"><a href="#flask写法" class="headerlink" title="flask写法"></a>flask写法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">class Contact(db.Model):</span><br><span class="line">	__tablename__ = &apos;follows&apos;</span><br><span class="line">	follower_id = db.Column(db.Integer, db.ForeignKey(&apos;users.id&apos;), primary_key = True)</span><br><span class="line">	followed_id = db.Column(db.Integer, db.ForeignKey(&apos;users.id&apos;), primary_key = True)</span><br><span class="line">	created = db.Column(db.DateTime, default=datetime.utcnow)</span><br><span class="line"></span><br><span class="line">class User(UserMixin, db.Model):</span><br><span class="line">	__tablename__=&apos;users&apos;</span><br><span class="line">	id = db.Column(db.Integer,primary_key=True)</span><br><span class="line">    # ...</span><br><span class="line">	followed = db.relationship(&apos;Follow&apos;,</span><br><span class="line">		                   foreign_keys=[Contact.follower_id],</span><br><span class="line">		                   backref=db.backref(&apos;follower&apos;, lazy=&apos;joined&apos;),</span><br><span class="line">		                   lazy=&apos;dynamic&apos;,</span><br><span class="line">		                   cascade=&apos;all, delete-orphan&apos;)</span><br><span class="line">	followers = db.relationship(&apos;Follow&apos;,</span><br><span class="line">		                    foreign_keys=[Contact.followed_id],</span><br><span class="line">		                    backref=db.backref(&apos;followed&apos;, lazy=&apos;joined&apos;),</span><br><span class="line">		                    lazy=&apos;dynamic&apos;,</span><br><span class="line">		                    cascade=&apos;all, delete-orphan&apos;)</span><br></pre></td></tr></table></figure>
+<p>Contact为中间表，User表中分别定义followed和followers两个一对多关系，原理同django类似。 </p>
+<p><strong>创建关注关系</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">c = Contact(follower=user1, followed=user2)</span><br><span class="line">db.session.add(c)</span><br><span class="line">db.session.commit()</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/06/Flask, Django的数据库关系/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/06/Flask, Django的数据库关系/" itemprop="url">Flask, Django的数据库关系</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-06T15:56:47+08:00">
+                2017-10-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="flask-django的数据库关系"><a href="#flask-django的数据库关系" class="headerlink" title="flask, django的数据库关系"></a>flask, django的数据库关系</h1><p>在学完flask框架，开始学习django时，关于数据库“多对一”，“多对多”关系的定义有一些不同，总结一下笔记，以便以后查阅。  </p>
+<h2 id="多对一关系"><a href="#多对一关系" class="headerlink" title="多对一关系"></a>多对一关系</h2><p><strong>flask写法</strong>，示例模型为：用户权限<code>Role</code>为“一”的一方，用户<code>User</code>为“多”的一方。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">class Role(db.Model):</span><br><span class="line">    __tablename__ = &apos;roles&apos;</span><br><span class="line">    # ...</span><br><span class="line">    users = db.relationship(&apos;User&apos;, backref=&apos;role&apos;, lazy=&apos;dynamic&apos;)</span><br><span class="line">    </span><br><span class="line">class User(db.Model):</span><br><span class="line">    # ...</span><br><span class="line">    role_id = db.Column(db.Integer, db.ForeignKey(&apos;roles.id&apos;))</span><br></pre></td></tr></table></figure></p>
+<p><strong>django写法</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">class Role(models.Model):</span><br><span class="line">    # ...</span><br><span class="line">    </span><br><span class="line">class User(models.Model):</span><br><span class="line">    role = models.ForeignKey(Role, related_name=&apos;users&apos;)</span><br></pre></td></tr></table></figure></p>
+<p>需要注意的区别：<br>1.django的数据库关系全部定义在多的一方，有一向多的反向引用定义在<code>related_name</code>里，该参数如果不定义，则django默认为多方表名+“_set”，本例即为<code>user_set</code>。<br>2.flask的数据库关系，在多方定义外键，在一方定义关系，反向引用定义在一方的backref里。  </p>
+<h2 id="多对多关系"><a href="#多对多关系" class="headerlink" title="多对多关系"></a>多对多关系</h2><p><strong>flask</strong>写多对多关系比较复杂，必须写关系表，示例模型为：学生(Student)与课程(classes)。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">registrations = db.Table(&apos;registrations&apos;,</span><br><span class="line">    db.Column(&apos;student_id&apos;, db.Integer, db.ForeignKey(&apos;students.id&apos;)),</span><br><span class="line">    db.Column(&apos;class_id&apos;, db.Integer, db.ForeignKey(&apos;classes.id&apos;))</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">class Student(db.Model):</span><br><span class="line">    id = db.Column(db.Integer, primary_key=True)</span><br><span class="line">    # ...</span><br><span class="line">    classes = db.relationship(&apos;Class&apos;, secondary=registrations,</span><br><span class="line">                              backref=db.backref(&apos;students&apos;, lazy=&apos;dynamic&apos;),</span><br><span class="line">                              lazy=&apos;dynamic&apos;)</span><br><span class="line">                              </span><br><span class="line">class Class(db.Model):</span><br><span class="line">    id = db.Column(db.Integer, primary_key=True)</span><br><span class="line">    #...</span><br></pre></td></tr></table></figure></p>
+<p>而<strong>django</strong>的写法就很简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">class Student(models.Model):</span><br><span class="line">    classes = models.ManyToManyField(Class, related_name=&apos;students&apos;)</span><br><span class="line">    </span><br><span class="line">class Class(models.Model):</span><br><span class="line">    # ...</span><br></pre></td></tr></table></figure></p>
+<p>可见django要简便智能的多，但是flask的书写方式会让你更清楚多对多关系表的工作原理。<br>在这两个例子中，可以用<code>student.classes.all()</code>和<code>class.students.all()</code>相互引用。  </p>
+<p>需要注意的是，django的表中，related_name并非必须，如果未设置将会用<strong>表名+“_set”</strong>替代。  </p>
+<h2 id="django的聚合"><a href="#django的聚合" class="headerlink" title="django的聚合"></a>django的聚合</h2><p>主要内容可见：<a href="http://python.usyiyi.cn/translate/django_182/topics/db/aggregation.html" target="_blank" rel="noopener">http://python.usyiyi.cn/translate/django_182/topics/db/aggregation.html</a>  </p>
+<p>这里主要提醒一下，在反向聚合中，如果没有定义<code>related_name</code>，可以直接使用表名的小写作引用。<br>例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Publisher(models.Model):</span><br><span class="line">    name = models.CharField(max_length=300)</span><br><span class="line">    num_awards = models.IntegerField()</span><br><span class="line"></span><br><span class="line">class Book(models.Model):</span><br><span class="line">    publisher = models.ForeignKey(Publisher)</span><br><span class="line">    pubdate = models.DateField()</span><br><span class="line">    </span><br><span class="line">p = Publisher.objects.annotate(Count(&apos;book&apos;))  #注意book的使用</span><br><span class="line">c = Publisher.objects.aggregate(oldest_pubdate=Min(&apos;book__pubdate&apos;))</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/24/Django Document:Field Options/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/24/Django Document:Field Options/" itemprop="url">Django Document:Field Options</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-24T11:11:22+08:00">
+                2017-08-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>原文来源：<a href="http://www.cnblogs.com/linxiyue/p/3662535.html" target="_blank" rel="noopener">http://www.cnblogs.com/linxiyue/p/3662535.html</a> ,搜到一篇总结很好的文章，转过来留作查用。  </p>
+<p>建立一个简易Model<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">class Person(models.Model):</span><br><span class="line">    GENDER_CHOICES=(</span><br><span class="line">        (1,&apos;Male&apos;),</span><br><span class="line">        (2,&apos;Female&apos;),</span><br><span class="line">        )</span><br><span class="line">    name=models.CharField(max_length=30,unique=True,verbose_name=&apos;姓 名&apos;)   </span><br><span class="line">    birthday=models.DateField(blank=True,null=True)</span><br><span class="line">    gender=models.IntegerField(choices=GENDER_CHOICES)</span><br><span class="line">    account=models.IntegerField(default=0)</span><br></pre></td></tr></table></figure></p>
+<h3 id="blank"><a href="#blank" class="headerlink" title="blank"></a>blank</h3><p>设置为True时，字段可以为空。设置为False时，字段是必须填写的。字符型字段CharField和TextField是用空字符串来存储空值的。  </p>
+<h3 id="null"><a href="#null" class="headerlink" title="null"></a>null</h3><p>设置为True时，django用Null来存储空值。日期型、时间型和数字型字段不接受空字符串。所以设置IntegerField，DateTimeField型字段可以为空时，需要将blank，null均设为True。<br>如果想设置BooleanField为空时可以选用NullBooleanField型字段。  </p>
+<h3 id="max-length"><a href="#max-length" class="headerlink" title="max_length"></a>max_length</h3><p>为CharField型字段设置最大长度。  </p>
+<h3 id="choices"><a href="#choices" class="headerlink" title="choices"></a>choices</h3><p>由元素为2-tuples的序列(list或者tuple)作为字段的choices。2-tuple的第一个元素存储在数据库中，第二个元素可由get_FOO_display方法得到。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;p=Person(name=&apos;Sam&apos;,gender=1)</span><br><span class="line">&gt;&gt;&gt;p.save()</span><br><span class="line">&gt;&gt;&gt;p.gender</span><br><span class="line">1</span><br><span class="line">&gt;&gt;&gt;p.get_gender_display()</span><br><span class="line">u&apos;Male&apos;</span><br></pre></td></tr></table></figure></p>
+<p>如果choices的选项过多的话，最好考虑使用ForiegnKey。  </p>
+<h3 id="default"><a href="#default" class="headerlink" title="default"></a>default</h3><p>为字段设定默认值。<br>默认值不能是一个可变对象（模型实例，列表，集合等），作为到同一个实例的参考，该对象将用作所有新的模型实例中的默认值。相反，在一个可调用的对象中封装所需的默认值。例如，如果你有一个自定义JSONField，并希望指定一个作为默认的字典，使用一个lambda表达式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">contact_info = JSONField(&quot;ContactInfo&quot;, default=lambda:&#123;&quot;email&quot;: &quot;to1@example.com&quot;&#125;)</span><br></pre></td></tr></table></figure></p>
+<h3 id="verbose-name"><a href="#verbose-name" class="headerlink" title="verbose_name"></a>verbose_name</h3><p>设置此字段在admin界面上的显示名称。  </p>
+<h3 id="unique"><a href="#unique" class="headerlink" title="unique"></a>unique</h3><p>设置为True，此字段在数据库中必须是唯一的。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;p=Person(name=&apos;Sam&apos;,gender=1)</span><br><span class="line">&gt;&gt;&gt;p.save()</span><br><span class="line">&gt;&gt;&gt;p=Person(name=&apos;Sam&apos;,gender=2)</span><br><span class="line">&gt;&gt;&gt;p.save()</span><br><span class="line">IntergrityError: column name is not unique</span><br></pre></td></tr></table></figure></p>
+<h3 id="primary-key"><a href="#primary-key" class="headerlink" title="primary_key"></a>primary_key</h3><p>如果设置为True，则此字段成为Model的主键。一般情况下，django会为Model自动添加一个叫id的IntegerField字段作为主键。  </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
